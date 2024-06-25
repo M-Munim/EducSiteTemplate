@@ -27,7 +27,7 @@ const Testimonials = () => {
     slider.current.style.transform = `translateX(${tx}%)`
   }
   return (
-    <div className='testimonials'>
+    <div className='testimonials' id='Testimonials'>
       <img src={nextIcon} alt="" className='next-btn' onClick={slideForward} />
       <img src={backIcon} alt="" className='back-btn' onClick={slideBackward} />
       <div className="slider">
